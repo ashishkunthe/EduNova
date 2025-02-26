@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
-import { Menu, X } from "lucide-react"; // Import icons for mobile menu toggle
+import { Menu, X } from "lucide-react";
 
 function AppLayout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
